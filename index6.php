@@ -23,7 +23,7 @@ if (isset($_GET['id'])) {
 
     $stmt->close();
 } else {
-    echo "<p>No se proporcionó un ID.</p>";
+    echo "<p>No se proporcionó un Id.</p>";
 }
 
 $conn->close();
